@@ -1,12 +1,13 @@
 const images = [
-  "card1.png",
-  "card2.png",
-  "card3.png",
-  "card4.png",
-  "card5.png",
-  "card6.png",
-  "card7.png"
+  "./card1.png",
+  "./card2.png",
+  "./card3.png",
+  "./card4.png",
+  "./card5.png",
+  "./card6.png",
+  "./card7.png"
 ];
+
 
 let currentIndex = 0;
 
@@ -45,3 +46,4 @@ function nextCard() {
     }
   }, 400);
 }
+
